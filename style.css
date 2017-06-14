@@ -1,0 +1,53 @@
+body {
+  width: 960px;
+  margin: auto;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 34 px;
+  color: #777;
+  background: #777;
+
+}
+
+header, nav, section, aside,footer {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background: #ebebeb;
+
+}
+
+section{
+  display: block;
+  float: left;
+  width: 490px;
+  height: 260px;
+  overflow: hidden;
+}
+
+aside {
+  display: block;
+  float: right;
+  width: 40%;
+  height: 260px;
+  overflow: hidden;
+}
+
+article {
+  padding: 10px;
+  color: #ebebeb;
+  background: #777;
+}
+.first {
+  clear: both;
+}
+
+p, h1 {
+  width: 90%
+  padding: 10px;
+  margin: 10px;
+  color: #777;
+  text-align: center;
+  background: #ebebeb;
+}
